@@ -123,3 +123,5 @@ sudo service dnsmasq start
 sudo update-rc.d dnsmasq enable
 sudo apt-get install udhcpc -y
 sudo cp ap.sh /usr/bin/ap
+#------------------------Setup Default Network------------------------------------
+sudo ap PiAP raspberry
