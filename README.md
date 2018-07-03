@@ -1,4 +1,11 @@
 # PNP_RPi3_AP
+
+sudo git clone
+sudo chmod +x install.sh
+sudo chmod +x ap.sh
+sudo ./install.sh
+
+
 convert your Raspberry pi 3 into a Access Point by creating the hotspot
 
 First Clone the URL
