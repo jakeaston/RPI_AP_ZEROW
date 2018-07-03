@@ -8,7 +8,7 @@ sudo apt-get update
 x=tem.tem
 touch $x
 sudo rm -rf /etc/default/udhcpd
-sudo mkdir /etc/default
+sudo mkdir -p /etc/default
 sudo touch /etc/default/udhcpd
 echo "start 192.168.42.2 " >>   $x
 echo "end 192.168.42.20" >> $x
@@ -73,7 +73,7 @@ sudo chmod --reference /etc/network/interfaces.bk /etc/network/interfaces.ap
 #Config /etc/wpa_supplicant/wpa_supplicant.conf
 touch $x
 sudo rm -rf /etc/wpa_supplicant/wpa_supplicant.conf
-sudo mkdir /etc/wpa_supplicant
+sudo mkdir -p /etc/wpa_supplicant
 sudo touch /etc/wpa_supplicant/wpa_supplicant.conf
 echo "ctrl_interface=/var/run/wpa_supplicant" >> $x
 echo "update_config=1" >> $x
